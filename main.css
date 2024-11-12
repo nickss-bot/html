@@ -1,0 +1,24 @@
+:root {
+    --green: #00ff0d;
+    --white: #ffffff;
+    --black: #000000;
+}
+
+* {  
+    
+    font-family: helvetica;
+ }
+
+ body {
+    background: var();
+ }
+
+.light-theme{
+    background: var(--white);
+    color: var(--black);
+}
+
+ .dark-theme {
+    background: var(--black);
+    color: var(--green);
+ } 
